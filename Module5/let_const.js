@@ -5,9 +5,9 @@
 // console.log(a)
 
 // const a = 'Arman' // In const keyword we cant reassign or redeclare and it is an blocked scope 
-// a='Neha'
+// a='John'
 // console.log(a)
 
 var a= "Arman" // In var we can do both reassign and redeclaration and it is an function scoped 
-var a='NEha '
+var a='John '
 console.log(a)
