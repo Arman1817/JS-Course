@@ -1,6 +1,6 @@
 marks=70
 if(marks > 70){
-    console.log('yess neha is mine')
+    console.log('yess John is mine')
 }
 else{
     console.log('Nah she is not')
@@ -17,4 +17,7 @@ name='Arman'
   else{
     console.log(` ${name} is a valid number`)
   }
+
+
+
 
