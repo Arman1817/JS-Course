@@ -1,5 +1,5 @@
 person ={
-    Name: 'Neha',
+    Name: 'John',
     Looks: 'Cute',
     Age: 21,
     Address:{
