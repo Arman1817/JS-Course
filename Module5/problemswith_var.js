@@ -1,18 +1,18 @@
 
 // var name = 'Arman' // In var it overwrites the values that's the main problem to overcome from this prblm we use const method
 
-// var name ='Neha'
+// var name ='John'
 // console.log(name)
 
 
 // **********Example with const (const doest allow to change var value)************
 // const name ='Arman'
-//  name ='Neha'
+//  name ='John'
 // console.log(name)
 
 // name ='Arman'
 // if (name==='Arman'){
-//     name2='Neha'
+//     name2='John'
 //     console.log(name2)  // and Problem is that we can access the name2 
 //     //var outside the if statement which can cause security issues
 // }
