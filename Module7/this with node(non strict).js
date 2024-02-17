@@ -25,7 +25,7 @@
         console.log(this)
     }
  }
- myobj.myfun1() // object itself
+ myobj1.myfun1() // object itself
 
 
  // Calling this keyword in object function function 
