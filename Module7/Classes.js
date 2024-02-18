@@ -17,5 +17,6 @@ let Person2=new Person('Habibi',20,'Unmarried')
 let Person3=new Person('Angelina',20,'married')
 console.log(Person1)
 console.log(Person2)
+
 console.log(Person3)
 Person1.welcome()  // Calling method 
