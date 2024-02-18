@@ -5,6 +5,7 @@ class BusDriver {
     constructor(_name,_Age){
         this.name=_name
         this.Age=_Age
+        
     }
 }
 
