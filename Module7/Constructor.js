@@ -8,13 +8,14 @@ function Person(_name,_Age,_Gender){
     this.Age=_Age
     this.Gender=_Gender
 
-    this.Identity=function(){
-        console.log(`Hello my name is ${this.name} and my Age is ${this.Age}`) // We can also create Method using constructor
-    }
+    // this.Identity=function(){
+    //     console.log(`Hello my name is ${this.name} and my Age is ${this.Age}`) // We can also create Method using constructor
+    // }
 }
-let person1=new Person('Arman',20,'M')
-let person2=new Person('Chuhiya',20,'F')
+let person1=new Person('Arman',20,'M') // This is an object
+let person2=new Person('Chuhiya',20,'F') // This is an object
 
 console.log(person1)
 console.log(person2)
-person1.Identity() // Calling  Identity method 
+console.log(typeof (person1)) 
+// person1.Identity() // Calling  Identity method 
