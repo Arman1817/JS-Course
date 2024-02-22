@@ -8,6 +8,7 @@ class BusDriver {
     Welcome(){
         console.log(`Name is ${this.name}`) // Creating a method 
     }
+    
 }
 
 class Pilot extends BusDriver{ 
