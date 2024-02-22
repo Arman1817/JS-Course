@@ -33,3 +33,6 @@ console.log(Pilot1)
 
 let Locopilot1=new Locopilot('Hitler',45,-2)
 console.log(Locopilot1)
+
+
+
