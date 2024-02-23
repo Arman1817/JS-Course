@@ -22,8 +22,8 @@ let Person2={
         console.log(`Hii I'm ${this.name} ${this.lname} and my Age is ${this.Age} `)
     }
 }
-Person1.CallingName()
-Person2.CallingName()
+// Person1.CallingName()
+// Person2.CallingName()
 
 // After using Call method 
 
@@ -42,8 +42,5 @@ let  Person3={
     lname: 'Hattori',
     Age: 45120,
 
-    CallingName:function(){
-        console.log(`Hii I'm ${this.name} ${this.lname} and my Age is ${this.Age} `)
-    }
 }
-Person4.CallingName.call(Person4) // Here we are invoking CallingName method for Person2 
+Person3.CallingName.call(Person4) // Here we are invoking CallingName method for Person2 
