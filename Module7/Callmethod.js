@@ -22,8 +22,8 @@ let Person2={
         console.log(`Hii I'm ${this.name} ${this.lname} and my Age is ${this.Age} `)
     }
 }
-// Person1.CallingName()
-// Person2.CallingName()
+Person1.CallingName()
+Person2.CallingName()
 
 // After using Call method 
 
