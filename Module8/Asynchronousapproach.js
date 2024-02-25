@@ -7,7 +7,7 @@ function cb1(err,data){
     if(err){
         console.log(err)
     }
-    console.log('File name' + data)
+    console.log('File name: '  +  data)
 
 }
 
@@ -16,8 +16,13 @@ function cb2(err,data){
     if(err){
         console.log(err)
     }
-    console.log('File name' + data)
+    console.log('File name: '  +  data)
 
 }
 
 console.log('End')
+
+// Note //
+
+// In Asynchronous expected output will be in random not in serial or sequence 
+
