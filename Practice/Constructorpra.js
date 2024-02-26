@@ -14,18 +14,18 @@
 // console.log(add)
 
 
-class User{
-    constructor(_name,_Age,_Gender){ // Any function within classes are called methods
-        this.name=_name
-        this.Age=_Age
-        this.Gender=_Gender
-    }
-    Identity(){
-        console.log(`Hello ${this.name} Your Age is: ${this.Age} and you belong to ${this.Gender} Category`)
-    }
-}
-let User1= new User('Arman',20,'Male')
-User1.Identity()
+// class User{
+//     constructor(_name,_Age,_Gender){ // Any function within classes are called methods
+//         this.name=_name
+//         this.Age=_Age
+//         this.Gender=_Gender
+//     }
+//     Identity(){
+//         console.log(`Hello ${this.name} Your Age is: ${this.Age} and you belong to ${this.Gender} Category`)
+//     }
+// }
+// let User1= new User('Arman',20,'Male')
+// User1.Identity()
 
 
 
