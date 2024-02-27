@@ -5,7 +5,7 @@
 
 let mypromise = new Promise(function(resolve, reject){
         const a = 10;
-        const b = 10;
+        const b = 110;
         setTimeout(() => {
             if (a===b) {
                 resolve('Values are Equal');
